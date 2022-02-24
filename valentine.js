@@ -57,8 +57,8 @@ renderer.setAnimationLoop(time => {
   controls.update();
   renderer.render(scene, camera)
   bloomComposer.render();
-  mesh.position.x = (3 * Math.sin(0.010 * time)) - (Math.sin(0.030 * time))
-  mesh.position.y = 3.25 * Math.cos(0.010 * time) - 1.25 * Math.cos(0.020 * time) - 0.50 * Math.cos(0.040 * time)
+  mesh.position.x = (3 * Math.sin(0.008 * time)) - (Math.sin(0.024 * time))
+  mesh.position.y = 3.25 * Math.cos(0.008 * time) - 1.25 * Math.cos(0.016 * time) - 0.5 * Math.cos(0.024 * time) - 0.25 * Math.cos(0.032 * time)
 });
 
 //generate all positions first
